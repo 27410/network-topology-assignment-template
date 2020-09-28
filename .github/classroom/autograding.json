@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Binarize S",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_binary_stoichiometry_matrix'",
       "input": "",
       "output": "",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Reaction adjacency matrix",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_reaction_adjacency_matrix'",
       "input": "",
       "output": "",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Compound adjacency matrix",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_compound_adjacency_matrix'",
       "input": "",
       "output": "",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Most connected metabolite",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_most_connected_metabolite'",
       "input": "",
       "output": "",
@@ -42,7 +42,7 @@
     },
     {
       "name": "ATP participation",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_atp_participation'",
       "input": "",
       "output": "",
@@ -52,7 +52,7 @@
     },
     {
       "name": "ACALD ALCAD2x common metabolites",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_ACALD_ALCAD2x_metabolites_in_common'",
       "input": "",
       "output": "",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Top 10 of most connected metabolites",
-      "setup": "sudo -H pip3 install pytest numpy cobra",
+      "setup": "",
       "run": "pytest assignment.py -k 'test_top10'",
       "input": "",
       "output": "",
