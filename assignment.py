@@ -114,7 +114,7 @@ def test_ACALD_ALCAD2x_metabolites_in_common():
 
 # Replace _ with a list of metabolites (all of type cobra.core.metabolite.Metabolite) that
 # correspond to the top 10 most connected metabolites (in ascending order)
-top10 = [item[0] for item in metabolite_degree_zip][0:10]
+top10 = _
 
 ###### Don't touch
 def test_top10():
