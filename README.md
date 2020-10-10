@@ -10,7 +10,7 @@ In `assignment.py`:
 3. Compute the compound adjacency matrix.
 4. Determine the most connected metabolite.
 5. Determine in how many reactions the metabolite atp_c participates in.
-6. Determine how many metabolites the reactions ACALD and ALCAD2x share.
+6. Determine how many metabolites the reactions ACALD and ALCD2x share.
 7. Determine the top 10 list of most connected metabolites.
 
 Hints:
