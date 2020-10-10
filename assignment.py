@@ -76,7 +76,7 @@ def test_most_connected_metabolite():
 # Furthermore, since model.metabolites behaves just like a list or array, it
 # also supports model.metabolites.index(your_metabolite).
 
-# Replace _ with the number of reactions apt_c participates in (should be a number).
+# Replace _ with the number of reactions atp_c participates in (needs to be determined programmatically).
 atp_participation = _
 
 ###### Don't touch
